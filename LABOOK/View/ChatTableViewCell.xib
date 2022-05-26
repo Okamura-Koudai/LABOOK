@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChatInputAccessoryView" customModule="LABOOK" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellId" rowHeight="219" id="C4s-In-7ZC" customClass="chatTableViewCell" customModule="LABOOK" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="665" height="220"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="C4s-In-7ZC" id="MJ4-du-Jcu">
+                <rect key="frame" x="0.0" y="0.0" width="665" height="220"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1v0-fQ-fWY">
+                        <rect key="frame" x="70" y="25" width="250" height="170"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" selected="YES"/>
+                        </accessibility>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="250" id="Jev-sd-ysz"/>
+                        </constraints>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dhr-Rd-ABn">
+                        <rect key="frame" x="10" y="85" width="50" height="50"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="dhr-Rd-ABn" secondAttribute="height" multiplier="1:1" id="CyV-LN-eDW"/>
+                            <constraint firstAttribute="height" constant="50" id="IGq-Fl-5Xj"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VOh-db-YJZ">
+                        <rect key="frame" x="605" y="85" width="50" height="50"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="3Ff-fh-mqp"/>
+                            <constraint firstAttribute="width" secondItem="VOh-db-YJZ" secondAttribute="height" id="yYm-h6-tnp"/>
+                        </constraints>
+                    </imageView>
+                    <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qwu-lx-0vI">
+                        <rect key="frame" x="345" y="25" width="250" height="170"/>
+                        <color key="backgroundColor" red="0.76078431369999999" green="1" blue="0.97905973599999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" selected="YES"/>
+                        </accessibility>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="250" id="kq2-Uu-hD1"/>
+                        </constraints>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kYD-Ku-nLh">
+                        <rect key="frame" x="308" y="183" width="27" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RU7-qd-6We">
+                        <rect key="frame" x="330" y="183" width="27" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="VOh-db-YJZ" firstAttribute="leading" secondItem="qwu-lx-0vI" secondAttribute="trailing" constant="10" id="0cb-r2-CAA"/>
+                    <constraint firstItem="qwu-lx-0vI" firstAttribute="centerY" secondItem="MJ4-du-Jcu" secondAttribute="centerY" id="7mG-hm-dnU"/>
+                    <constraint firstItem="RU7-qd-6We" firstAttribute="leading" secondItem="1v0-fQ-fWY" secondAttribute="trailing" constant="10" id="BTv-7h-sDJ"/>
+                    <constraint firstAttribute="bottom" secondItem="kYD-Ku-nLh" secondAttribute="bottom" constant="25" id="FUf-hh-UVa"/>
+                    <constraint firstItem="dhr-Rd-ABn" firstAttribute="leading" secondItem="MJ4-du-Jcu" secondAttribute="leading" constant="10" id="HbU-gJ-5vh"/>
+                    <constraint firstAttribute="bottom" secondItem="1v0-fQ-fWY" secondAttribute="bottom" constant="25" id="JIz-7a-ELU"/>
+                    <constraint firstAttribute="bottom" secondItem="RU7-qd-6We" secondAttribute="bottom" constant="25" id="LIC-Tz-Ne5"/>
+                    <constraint firstItem="dhr-Rd-ABn" firstAttribute="centerY" secondItem="MJ4-du-Jcu" secondAttribute="centerY" multiplier="1:1" id="LQU-ek-9iT"/>
+                    <constraint firstItem="1v0-fQ-fWY" firstAttribute="centerY" secondItem="MJ4-du-Jcu" secondAttribute="centerY" id="N33-im-hRM"/>
+                    <constraint firstItem="qwu-lx-0vI" firstAttribute="leading" secondItem="kYD-Ku-nLh" secondAttribute="trailing" constant="10" id="QV3-Rj-GEf"/>
+                    <constraint firstItem="VOh-db-YJZ" firstAttribute="centerY" secondItem="MJ4-du-Jcu" secondAttribute="centerY" id="QkW-hq-b6U"/>
+                    <constraint firstItem="1v0-fQ-fWY" firstAttribute="leading" secondItem="dhr-Rd-ABn" secondAttribute="trailing" constant="10" id="hBo-cG-8xe"/>
+                    <constraint firstAttribute="trailing" secondItem="VOh-db-YJZ" secondAttribute="trailing" constant="10" id="vf3-xN-Jjy"/>
+                    <constraint firstAttribute="bottom" secondItem="qwu-lx-0vI" secondAttribute="bottom" constant="25" id="vzj-wB-cIV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <accessibility key="accessibilityConfiguration">
+                <accessibilityTraits key="traits" selected="YES"/>
+            </accessibility>
+            <connections>
+                <outlet property="myDateLabel" destination="kYD-Ku-nLh" id="3an-gS-h8l"/>
+                <outlet property="myMessageImageView" destination="VOh-db-YJZ" id="cEZ-I3-mBV"/>
+                <outlet property="myMessageTextView" destination="qwu-lx-0vI" id="Mn3-IW-q8M"/>
+                <outlet property="myMessageTextWidthConstraint" destination="kq2-Uu-hD1" id="bwa-PR-Bpf"/>
+                <outlet property="partnerDateLabel" destination="RU7-qd-6We" id="fbk-0x-9O3"/>
+                <outlet property="partnerMessageImageView" destination="dhr-Rd-ABn" id="M6i-kg-Cxw"/>
+                <outlet property="partnerMessageTextView" destination="1v0-fQ-fWY" id="tAK-eM-CGu"/>
+                <outlet property="partnerMessageTextWidthConstraint" destination="Jev-sd-ysz" id="gvZ-h1-yT6"/>
+            </connections>
+            <point key="canvasLocation" x="-22.463768115942031" y="26.785714285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

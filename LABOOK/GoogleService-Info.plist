@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>654157129044-o7oka626eb8il1geg69k6vjbvqp97fft.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.654157129044-o7oka626eb8il1geg69k6vjbvqp97fft</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAmqC-Pmafbb1xr_CWB_qjFWAzgbnQgMSE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>654157129044</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Swift-Beginners.LABOOK</string>
+	<key>PROJECT_ID</key>
+	<string>labook-cbf58</string>
+	<key>STORAGE_BUCKET</key>
+	<string>labook-cbf58.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:654157129044:ios:d939cb1844f73ab8dd94c1</string>
+</dict>
+</plist>
